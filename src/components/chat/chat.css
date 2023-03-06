@@ -1,0 +1,77 @@
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.right .topMenuRight {
+  background-color: #749f82;
+  display: flex;
+  align-items: center;
+  height: 7%;
+  padding: 10px 10px 12px 10px;
+  border-top-right-radius: 10px;
+}
+
+.right .contactNameRight {
+  flex: 1;
+  margin-top: 19px;
+}
+.right .rightMenuIcons {
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.right .rightMenuIcons:hover {
+  background-color: rgb(84, 136, 84);
+  border-radius: 5px;
+}
+
+.right .dropdown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgb(77, 145, 71);
+  padding: 5px;
+  border-radius: 5px;
+  /* height: 20px; */
+  right: -75px;
+  top: 25px;
+  font-size: 12px;
+}
+.right .deleteFriend {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.right .deleteFriend:hover {
+  text-decoration: underline;
+}
+
+.right .remove {
+  display: flex;
+  align-items: center;
+  width: 15px;
+}
+
+.right .favorite {
+  display: flex;
+  align-items: flex-end;
+  gap: 13px;
+  cursor: pointer;
+}
+
+.right .favorite:hover {
+  text-decoration: underline;
+}
+
+.right .star {
+  display: flex;
+  align-items: center;
+  width: 15px;
+}

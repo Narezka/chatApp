@@ -1,0 +1,82 @@
+.login {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 30%;
+  height: 40%;
+  background-color: #e5fdd1;
+  padding: 35px;
+  z-index: 999;
+  border-radius: 10px;
+  font-family: "Noto Serif Ahom", serif;
+}
+
+.login h1 {
+  text-align: center;
+  margin-top: -17px;
+  color: #285430;
+}
+
+.login .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login h3 {
+  text-align: center;
+  margin-top: -20px;
+  color: #5f8d4e;
+}
+
+.login .loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: -10px;
+}
+
+.login input {
+  background-color: #e5fdd1;
+  line-height: 40px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #A9AF7E;
+  color: #557153;
+  font-size: 15px;
+  width: 290px;
+  margin-top: -10px;
+}
+
+.login button {
+  font-family: "Noto Serif Ahom", serif;
+  font-size: 16px;
+  background-color: #e5d9b6;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 25px;
+  color: #557153;
+  margin-top: 10px;
+}
+
+.login .errMsg{
+  font-size: 12px;
+  color: red;
+  font-weight: bold;
+}
+
+.login p {
+  text-align: center;
+  margin-top: 8px;
+  color: #557153;
+  font-size: 12px;
+}
+
+.login .registerLink {
+  margin-top: -10px;
+}

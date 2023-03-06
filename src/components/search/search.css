@@ -1,0 +1,55 @@
+.search {
+  border-bottom: solid 1px;
+}
+.search .find {
+  line-height: 30px;
+  outline: 0;
+  border-width: 0 0 0;
+  border-color: white;
+  font-size: 12px;
+  background-color: #557153;
+  width: 337px;
+  color: white;
+  cursor: pointer;
+}
+
+.search .find::placeholder {
+  color: rgb(235, 225, 225);
+  padding-left: 10px;
+  font-family: "Noto Serif Ahom", serif;
+}
+
+.search .userChat {
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+.search .userChat:hover{
+  background-color:  #688866;;
+}
+
+.search .contactImg {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.search .contactInfo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 5px;
+}
+
+.search .contactName {
+  margin: 0;
+  font-size: 15px;
+}
+
+.search .lastMsg {
+  font-size: 10px;
+  margin-top: -5px;
+  color: lightgray;
+}

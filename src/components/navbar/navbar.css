@@ -1,0 +1,62 @@
+.topMenuLeft {
+  background-color: #395144;
+  display: flex;
+  align-items: center;
+  height: 7%;
+  padding: 10px 10px 10px 10px;
+  border-top-left-radius: 10px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.topMenuLeft .appName {
+  /* flex: 2; */
+  font-size: 15px;
+  margin-top: 20px;
+  font-weight: bold;
+  width: 80px;
+}
+
+.topMenuLeft .userInfo {
+  /* flex: 1; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* justify-content: space-between; */
+  height: 30px;
+  flex: 1;
+}
+
+.topMenuLeft .userInfo:hover {
+  background-color: #577c69;
+  border-radius: 3px;
+}
+
+.topMenuLeft .username {
+  font-size: 12px;
+}
+
+.topMenuLeft .userImg {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  margin-right: 5px;
+}
+
+.topMenuLeft .logout {
+  font-size: 12px;
+  margin-left: 10px;
+  font-family: "Noto Serif Ahom", serif;
+  background-color: #e5d9b6;
+  border: none;
+  border-radius: 5px;
+  color: #557153;
+  height: 20px;
+  cursor: pointer;
+}
+
+.topMenuLeft .logout:hover {
+  background-color: #aca286;
+  color: white;
+}

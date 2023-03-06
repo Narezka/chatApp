@@ -1,0 +1,79 @@
+.message {
+  display: flex;
+  gap: 30px;
+  /* align-items: center; */
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.message .userPic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -10px;
+  /* align-content: center;
+  justify-content: center; */
+}
+
+.message .friendIcon {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  position: relative;
+  top: 20px;
+}
+
+.message .time {
+  text-align: center;
+  font-size: 11px;
+  color: darkgrey;
+  position: relative;
+  top: 10px;
+  width: 30px;
+}
+
+.message .msgContent {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+}
+
+.message .msgText {
+  display: flex;
+  align-items: center;
+  color: black;
+  background-color: white;
+  height: 30px;
+  padding: 6px 6px;
+  border-radius: 8px 8px 8px 0;
+  font-size: 12px;
+  max-width: max-content;
+}
+
+.message .msgPhoto {
+  width: 50%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/*owner css start  */
+
+.message.owner {
+  flex-direction: row-reverse;
+  margin-right: 10px;
+}
+
+.message .msgContent.ownerContent {
+  display: flex;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.message .msgText.ownerMsg {
+  border-radius: 8px 8px 0 8px;
+}
+
+/*owner css end  */
+
