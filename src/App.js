@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Navigate, Route, Routes } from "react-router-dom";
 import { AuthContext } from "./context/AuthContext";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
     <p>made by N</p>
       <Routes>
         <Route path="/">
@@ -32,7 +32,7 @@ function App() {
           <Route path="register" element={<Register />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
