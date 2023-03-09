@@ -17,7 +17,6 @@ function App() {
 
   return (
     <BrowserRouter>
-      <h1>Deploy app</h1>
       <Routes>
         <Route path="/">
           <Route
