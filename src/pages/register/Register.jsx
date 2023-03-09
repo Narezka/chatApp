@@ -72,7 +72,7 @@ function Register() {
     <div className="register">
       <h1>WhatsApp demo</h1>
       <div className="container">
-        <h3>Register</h3>
+        <h3>Register page</h3>
         <form className="registerForm" onSubmit={handleSubmit}>
           <input type="text" placeholder="display name" />
           <input type="email" placeholder="email" />
@@ -86,7 +86,7 @@ function Register() {
                 className="addAvatar"
                 src="https://cdn-icons-png.flaticon.com/512/1176/1176381.png"
               />
-              Add an avatar
+              Show us your pretty face
             </p>
           </label>
 
