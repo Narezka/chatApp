@@ -17,7 +17,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    <p>made by Naz</p>
+    <p>made by N</p>
       <Routes>
         <Route path="/">
           <Route
