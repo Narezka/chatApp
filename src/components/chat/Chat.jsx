@@ -8,8 +8,6 @@ import Input from "../input/Input";
 import { ChatContext } from "../../context/ChatContext";
 import StarIcon from "@mui/icons-material/Star";
 import PersonRemoveIcon from "@mui/icons-material/PersonRemove";
-import { deleteDoc, doc } from "firebase/firestore";
-import { db } from "../../firebase";
 
 const Chat = () => {
   const [open, setOpen] = useState(false);
