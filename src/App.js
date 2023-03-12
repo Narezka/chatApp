@@ -17,7 +17,6 @@ function App() {
 
   return (
     <HashRouter>
-    <p>made by N</p>
       <Routes>
         <Route path="/">
           <Route
