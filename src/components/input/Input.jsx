@@ -25,9 +25,7 @@ const Input = () => {
   const handleSend = async () => {
     if (img) {
       const storageRef = ref(storage, uuid());
-
       const uploadTask = uploadBytesResumable(storageRef, img);
-
       uploadTask.on(
         "state_changed",
         (snapshot) => {

@@ -5,6 +5,7 @@ import { useState } from "react";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { doc, setDoc } from "firebase/firestore";
 import { Link, useNavigate } from "react-router-dom";
+import { async } from "@firebase/util";
 
 function Register() {
   const [err, setErr] = useState(false);
@@ -60,6 +61,8 @@ function Register() {
 
             await setDoc(doc(db, "userChats", res.user.uid), {});
             navigate("/");
+
+           
           });
         }
       );

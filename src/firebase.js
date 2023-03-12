@@ -4,7 +4,7 @@ import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAEEBMr4VZQKcZXhvdsHbGGghTGgv3ceik",
+  apiKey: process.env.REACT_APP_FIREBASE_KEY,
   authDomain: "chatapp-d9223.firebaseapp.com",
   databaseURL: "https://chatapp-d9223-default-rtdb.firebaseio.com",
   projectId: "chatapp-d9223",
