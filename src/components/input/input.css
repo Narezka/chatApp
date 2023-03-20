@@ -1,43 +1,56 @@
-.bottomRight{
-    display: flex;
-    height: 50px;
-    background-color: #E5FDD1;
-    align-items: center;
-    
+.bottomRight {
+  display: flex;
+  height: 60px;
+  background-color: #e5fdd1;
+  align-items: center;
 }
 
-.bottomRight .msgInput{
-    background-color: #E5FDD1;
-    outline: 0;
-    border: none;
-    flex: 1;
-    padding: 15px;
-    cursor: pointer;
+.bottomRight .msgInput {
+  background-color: #e5fdd1;
+  outline: 0;
+  border: none;
+  flex: 1;
+  padding: 15px;
+  cursor: pointer;
 }
 
-.bottomRight .msgIcons{
-    color:#5c9480;
-    margin-right: 5px;
-    cursor: pointer;
+.bottomRight .perc {
+  font-size: 10px;
+  color: black;
 }
 
-.bottomRight .msgIcons:hover{
-color:#182b24 ;
+.bottomRight .attachment {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  padding: 10px;
+}
+.bottomRight .msgIcons {
+  color: #5c9480;
+  margin-right: 5px;
+  cursor: pointer;
 }
 
-.bottomRight .send{
-    margin-left: 10px;
-margin-right: 10px;
-font-family: "Noto Serif Ahom", serif;
-width: 50px;
-height: 25px;
-border: none;
-border-radius: 5px;
-background-color: #00337C;
-color: white;
-cursor: pointer;
+.bottomRight .msgIcons:hover {
+  color: #182b24;
 }
 
-.bottomRight .send:hover{
-    background-color: #0554c2;
+.bottomRight .send {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Noto Serif Ahom", serif;
+  width: 50px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00337c;
+  color: white;
+  cursor: pointer;
+}
+.bottomRight .send:disabled {
+  background-color: #324663;
+  cursor: not-allowed;
+}
+.bottomRight .send:hover:not(.send:disabled) {
+  background-color: #0554c2;
 }

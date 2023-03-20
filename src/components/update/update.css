@@ -1,0 +1,186 @@
+.update {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 76%;
+  height: 40%;
+  background-color: white;
+  color: black;
+  padding: 50px;
+  z-index: 999;
+}
+.update .updateClose {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.update .updateClose:hover {
+  background-color: rgb(218, 44, 44);
+}
+
+.update span {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: -25px;
+}
+
+.update .bottomForm {
+  display: flex;
+  flex-direction: row;
+}
+.update .currentInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -30px;
+  border: 1px solid rgb(207, 194, 177);
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(207, 194, 177);
+}
+
+.update .cardHeading {
+  text-align: center;
+  font-weight: bold;
+  margin-top: -7px;
+}
+.update .heading {
+  width: 100px;
+}
+
+.update .infoCard {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: -10px;
+}
+
+.update .currentData {
+  width: 75px;
+  background-color: rgb(219, 211, 211);
+  border-radius: 5px;
+  padding: 4px;
+  display: flex;
+  align-content: center;
+  font-size: 12px;
+}
+
+.update .currentName {
+  width: auto;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.update .currentEmail {
+  width: auto;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.update .userAva {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.update .changeForm {
+  margin-left: 50px;
+}
+
+.update .name,
+.email {
+  display: flex;
+  align-items: center;
+}
+
+.update .imgUpdate,
+.nameUpdate,
+.emailUpdate {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.update .chooseImg,
+.changeName {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.update .submit {
+  margin-top: 10px;
+}
+
+.update .perc {
+  font-size: 12px;
+}
+
+.update .newAva {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.update .deleteIcon{
+  position: absolute;
+  color: rgb(38, 35, 179);
+  right: 30px;
+  top: 120px;
+  background-color: rgb(114, 112, 112);
+  border-radius: 3px;
+  width: 25px;
+  height: 25px;
+}
+
+.update .deleteIcon:hover{
+  cursor: pointer;
+  color: rgb(118, 118, 231);
+}
+
+.update p {
+  font-size: 14px;
+  width: 70px;
+}
+
+.update input {
+  line-height: 20px;
+  font-size: 13px;
+  width: 260px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid rgb(110, 106, 106);
+}
+
+.update .sendUpdate {
+  float: right;
+  font-size: 12px;
+  height: 20px;
+  width: 50px;
+  background-color: rgb(37, 126, 37);
+  border-radius: 3px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.update .sendUpdate:disabled {
+  background-color: rgb(17, 58, 17);
+  cursor: not-allowed;
+}
+.update .sendUpdate:hover:not(.sendUpdate:disabled) {
+  background-color: rgb(44, 150, 44);
+}

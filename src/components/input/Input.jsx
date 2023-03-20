@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "./input.css";
 import AttachFileIcon from "@mui/icons-material/AttachFile";
 import AddPhotoAlternateIcon from "@mui/icons-material/AddPhotoAlternate";
@@ -18,20 +18,24 @@ import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
 const Input = () => {
   const [text, setText] = useState("");
   const [img, setImg] = useState(null);
+  const [file, setFile] = useState(null);
+  const [perc, setPerc] = useState(null);
 
   const { currentUser } = useContext(AuthContext);
   const { data } = useContext(ChatContext);
 
-  const handleSend = async () => {
-    if (img) {
+  useEffect(() => {
+    const imgUpload = () => {
       const storageRef = ref(storage, uuid());
       const uploadTask = uploadBytesResumable(storageRef, img);
+
       uploadTask.on(
         "state_changed",
         (snapshot) => {
           const progress =
             (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
           console.log("Upload is " + progress + "% done");
+          setPerc(progress);
           switch (snapshot.state) {
             case "paused":
               console.log("Upload is paused");
@@ -45,19 +49,30 @@ const Input = () => {
           console.log("error upload file", error);
         },
         () => {
-          getDownloadURL(uploadTask.snapshot.ref).then(async (downloadURL) => {
-            await updateDoc(doc(db, "chats", data.chatId), {
-              messages: arrayUnion({
-                id: uuid(),
-                text,
-                senderId: currentUser.uid,
-                date: Timestamp.now(),
-                img: downloadURL,
-              }),
-            });
+          getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
+            setFile(downloadURL);
           });
         }
       );
+    };
+    img && imgUpload();
+  }, [img]);
+
+  const handleKey = (e) => {
+    e.code === "Enter" && handleSend();
+  };
+
+  const handleSend = async () => {
+    if (img) {
+      await updateDoc(doc(db, "chats", data.chatId), {
+        messages: arrayUnion({
+          id: uuid(),
+          text,
+          senderId: currentUser.uid,
+          date: Timestamp.now(),
+          img: file,
+        }),
+      });
     } else {
       await updateDoc(doc(db, "chats", data.chatId), {
         messages: arrayUnion({
@@ -90,14 +105,22 @@ const Input = () => {
   return (
     <div className="bottomRight">
       <input
+        onKeyDown={handleKey}
         className="msgInput"
         type="text"
         placeholder="Type something....."
         onChange={(e) => setText(e.target.value)}
         value={text}
       ></input>
+      {perc !== null && perc < 100 ? (
+        <p className="perc">{Math.floor(perc)}%</p>
+      ) : null}
+      {perc === 100 && img && (
+        <img className="attachment" alt="" src={URL.createObjectURL(img)} />
+      )}
       <div className="sendContainer">
         <input
+          onKeyDown={handleKey}
           type="file"
           style={{ display: "none" }}
           id="file"
@@ -108,7 +131,11 @@ const Input = () => {
           <AddPhotoAlternateIcon className="msgIcons" />
         </label>
       </div>
-      <button className="send" onClick={handleSend}>
+      <button
+        disabled={perc !== null && perc < 100}
+        className="send"
+        onClick={handleSend}
+      >
         send
       </button>{" "}
     </div>

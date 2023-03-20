@@ -1,9 +1,13 @@
+import { doc, onSnapshot } from "firebase/firestore";
 import React, { useContext, useEffect, useRef, useState } from "react";
 import { AuthContext } from "../../context/AuthContext";
 import { ChatContext } from "../../context/ChatContext";
+import { db } from "../../firebase";
 import "./message.css";
 
 const Message = ({ message }) => {
+  const [newData, setNewData] = useState({});
+  const [update, setUpdate] = useState({});
   const { currentUser } = useContext(AuthContext);
   const { data } = useContext(ChatContext);
 
@@ -19,6 +23,18 @@ const Message = ({ message }) => {
     minute: "2-digit",
   });
 
+  useEffect(() => {
+    const showUpdatedImg = () => {
+      const unsub = onSnapshot(doc(db, "users", currentUser.uid), (doc) => {
+        setNewData(doc.data());
+      });
+      return () => {
+        unsub();
+      };
+    };
+    currentUser.photoURL && showUpdatedImg();
+  }, [currentUser.photoURL]);
+
   return (
     <div
       ref={ref}
@@ -29,8 +45,9 @@ const Message = ({ message }) => {
           className="friendIcon"
           src={
             message.senderId === currentUser.uid
-              ? currentUser.photoURL
-              : data.user.photoURL
+              ? newData.photoURL
+              : // : update.photoURL
+                data.user.photoURL
           }
         />
         <p className="time">{hours}</p>
