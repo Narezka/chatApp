@@ -77,3 +77,46 @@
 
 /*owner css end  */
 
+@media only screen and (max-width: 600px) {
+  .message {
+    display: flex;
+    gap: 5px;
+    /* align-items: center; */
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+
+  .message .friendIcon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .message .time {
+    font-size: 5px;
+    top: 16px;
+  }
+
+  .message .msgContent {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+  }
+
+  .message .msgText {
+    height: 10px;
+    font-size: 8px;
+  }
+
+  .message .msgPhoto {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  /*owner css start  */
+
+  .message.owner {
+    margin-right: 5px;
+  }
+  /*owner css end  */
+}

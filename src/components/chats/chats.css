@@ -41,3 +41,23 @@
 .bottomLeft .more:hover {
   color: #314230;
 }
+
+@media only screen and (max-width: 600px) {
+  .bottomLeft .contactImg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .bottomLeft .contactInfo {
+    margin: 0;
+  }
+  .bottomLeft .contactName {
+    margin-left: -1px;
+    font-size: 12px;
+  }
+
+  .bottomLeft .lastMsg {
+    font-size: 6px;
+    margin: 0;
+  }
+}

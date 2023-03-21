@@ -82,7 +82,6 @@
   cursor: pointer;
 }
 
-
 .topMenuLeft .logout:hover {
   background-color: #a70808;
   color: white;
@@ -105,3 +104,48 @@
   color: white;
 }
 
+@media only screen and (max-width: 600px) {
+  .topMenuLeft {
+    height: 4%;
+    padding: 8px 8px 7px 8px;
+  }
+
+  .topMenuLeft .appName {
+    font-size: 10px;
+    margin-top: 13px;
+  }
+
+  .topMenuLeft .username {
+    font-size: 10px;
+  }
+
+  .topMenuLeft .userImg {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+  }
+
+  .topMenuLeft .menuIcon {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .topMenuLeft .buttons {
+    left: 130px;
+    top: 30px;
+    width: 85px;
+    height: 50px;
+  }
+
+  .topMenuLeft .logout {
+    font-size: 10px;
+    height: 14px;
+  }
+
+  .topMenuLeft .updateButton {
+    font-size: 10px;
+    height: 14px;
+    width: 67px;
+  }
+}

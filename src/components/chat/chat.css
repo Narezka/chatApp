@@ -30,48 +30,20 @@
   border-radius: 5px;
 }
 
-.right .dropdown {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  background-color: rgb(77, 145, 71);
-  padding: 5px;
-  border-radius: 5px;
-  /* height: 20px; */
-  right: -75px;
-  top: 25px;
-  font-size: 12px;
-}
-.right .deleteFriend {
-  display: flex;
-  align-items: flex-end;
-  gap: 10px;
-  cursor: pointer;
-}
+@media only screen and (max-width: 600px) {
+  .right {
+    width: 250px;
+  }
 
-.right .deleteFriend:hover {
-  text-decoration: underline;
-}
+  .right .topMenuRight {
+    height: 3%;
+  }
 
-.right .remove {
-  display: flex;
-  align-items: center;
-  width: 15px;
-}
+  .right .contactNameRight {
+    font-size: 12px;
+  }
 
-.right .favorite {
-  display: flex;
-  align-items: flex-end;
-  gap: 13px;
-  cursor: pointer;
-}
-
-.right .favorite:hover {
-  text-decoration: underline;
-}
-
-.right .star {
-  display: flex;
-  align-items: center;
-  width: 15px;
+  .right .rightMenuIcons {
+    width: 15px;
+  }
 }

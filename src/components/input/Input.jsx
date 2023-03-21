@@ -126,7 +126,7 @@ const Input = () => {
           id="file"
           onChange={(e) => setImg(e.target.files[0])}
         />
-        <AttachFileIcon className="msgIcons" />{" "}
+        <AttachFileIcon className="msgIcons fileIcon" />{" "}
         <label htmlFor="file">
           <AddPhotoAlternateIcon className="msgIcons" />
         </label>

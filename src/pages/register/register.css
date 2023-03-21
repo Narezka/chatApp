@@ -6,7 +6,7 @@
   right: 0;
   margin: auto;
   width: 30%;
-  height: 60%;
+  height: 65%;
   background-color: #e5fdd1;
   padding: 30px;
   z-index: 999;
@@ -118,4 +118,14 @@
   color: #557153;
   font-size: 12px;
   margin-top: -10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .register {
+    width: 75%;
+    height: 43%;
+  }
+  .register input {
+    width: 230px;
+  }
 }

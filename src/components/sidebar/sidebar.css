@@ -1,63 +1,12 @@
- .left {
-    flex: 1;
-    background-color: #557153;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+.left {
+  flex: 1;
+  background-color: #557153;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .left {
+    width: 150px;
   }
-  
-  /* .left .topMenuLeft {
-    background-color: #395144;
-    display: flex;
-    align-items: center;
-    height: 5%;
-    padding: 5px 8px 5px 8px;
-    border-top-left-radius: 10px;
-  }
-  
-  .left .appName {
-    flex: 1;
-    font-size: 15px;
-    margin-top: 20px;
-    font-weight: bold;
-  }
-  
-  .left .username {
-    font-size: 12px;
-  }
-  
-  .left .userImg {
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    object-fit: cover;
-    margin-right: 5px;
-  }
-  
-  .left .logout {
-    font-size: 10px;
-    margin-left: 10px;
-    font-family: "Noto Serif Ahom", serif;
-    background-color: #e5d9b6;
-    border: none;
-    border-radius: 5px;
-    color: #557153;
-    height: 15px;
-  } */
-  
-  /* .left .find {
-    line-height: 30px;
-    outline: 0;
-    border-width: 0 0 1px;
-    border-color: white;
-    font-size: 12px;
-    background-color: #557153;
-    width: 337px;
-    color: white;
-  }
-  
-  .left .find::placeholder {
-    color: rgb(235, 225, 225);
-    padding-left: 10px;
-    font-family: "Noto Serif Ahom", serif;
-  } */
-  
+}
