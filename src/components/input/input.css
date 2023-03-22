@@ -55,7 +55,7 @@
   background-color: #0554c2;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .bottomRight {
     height: 30px;
   }
@@ -75,14 +75,49 @@
   }
   .bottomRight .msgIcons {
     width: 15px;
-    /* margin-top: -15px; */
-   margin-top: 11px;
-   margin-right: -5px;
+    margin-top: 11px;
+    margin-right: -5px;
   }
 
   .bottomRight .fileIcon {
     display: none;
   }
+  .bottomRight .send {
+    font-size: 8px;
+    width: 30px;
+    height: 15px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1100px) {
+  .bottomRight {
+    height: 40px;
+  }
+
+  .bottomRight .msgInput {
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  .bottomRight .perc {
+    font-size: 8px;
+  }
+
+  .bottomRight .attachment {
+    width: 30px;
+    height: 30px;
+  }
+
+  .bottomRight .sendContainer{
+    display: flex;
+    gap: 5px;
+  }
+  .bottomRight .msgIcons {
+    width: 15px;
+    margin-top: 11px;
+    margin-right: -5px;
+  }
+
   .bottomRight .send {
     font-size: 8px;
     width: 30px;

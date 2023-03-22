@@ -30,17 +30,37 @@
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 501px) {
   .right {
-    width: 250px;
+    width: 240px;
   }
 
   .right .topMenuRight {
-    height: 3%;
+    height: 9px;
+  }
+
+  .right .contactNameRight {
+    font-size: 10px;
+    margin-top: 15px;
+  }
+
+  .right .rightMenuIcons {
+    width: 15px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1100px) {
+  .right {
+    width: 300px;
+  }
+
+  .right .topMenuRight {
+    height: 4%;
   }
 
   .right .contactNameRight {
     font-size: 12px;
+    margin-top: 15px;
   }
 
   .right .rightMenuIcons {

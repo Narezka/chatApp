@@ -25,8 +25,8 @@
   padding: 10px;
   cursor: pointer;
 }
-.search .userChat:hover{
-  background-color:  #688866;;
+.search .userChat:hover {
+  background-color: #688866;
 }
 
 .search .contactImg {
@@ -54,10 +54,38 @@
   color: lightgray;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .search .find {
-    line-height: 15px;
+    line-height: 8px;
     font-size: 10px;
+    padding-left: 10px;
+  }
+
+  .search .contactImg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .search .contactInfo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 5px;
+  }
+
+  .search .contactName {
+    font-size: 10px;
+  }
+
+  .search .lastMsg {
+    font-size: 6px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1100px) {
+  .search .find {
+    line-height: 8px;
+    font-size: 12px;
     padding-left: 10px;
   }
 
@@ -65,18 +93,18 @@
     width: 30px;
     height: 30px;
   }
-  
+
   .search .contactInfo {
     display: flex;
     flex-direction: column;
     flex: 1;
     margin-top: 5px;
   }
-  
+
   .search .contactName {
     font-size: 12px;
   }
-  
+
   .search .lastMsg {
     font-size: 6px;
   }
