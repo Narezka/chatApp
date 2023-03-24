@@ -136,12 +136,12 @@
   border-radius: 3px;
 }
 
-.update p {
+.update .nameTags {
   font-size: 14px;
   width: 70px;
 }
 
-.update input {
+.update .input {
   line-height: 20px;
   font-size: 13px;
   width: 260px;
@@ -242,13 +242,15 @@
   }
 
   .update .submit {
-    margin-top: 5px;
-    margin-right: 19px;
+    margin-top: 0;
+    width: 170px;
   }
 
   .update .sendUpdate {
     font-size: 10px;
     width: 42px;
+    border-radius: 0;
+    height: 13px;
   }
 
   .update .perc {
@@ -262,12 +264,12 @@
     border-radius: 3px;
   }
 
-  .update p {
+  .update .nameTags {
     font-size: 12px;
     width: 110px;
   }
 
-  .update input {
+  .update .input {
     line-height: 15px;
     font-size: 10px;
   }
@@ -277,9 +279,6 @@
   .update {
     width: 60%;
     height: 70%;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
   }
   .update .updateClose {
     right: 10px;

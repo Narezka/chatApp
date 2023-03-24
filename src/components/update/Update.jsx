@@ -125,8 +125,9 @@ const Update = ({ setOpenUpdate }) => {
         <div className="changeForm">
           <div className="imgUpdate">
             <div className="chooseImg">
-              <p>Avatar</p>
+              <p className="nameTags">Avatar</p>
               <input
+                className="input"
                 type="file"
                 onChange={(e) => setNewImg(e.target.files[0])}
                 ref={imgInputRef}
@@ -159,8 +160,9 @@ const Update = ({ setOpenUpdate }) => {
 
           <div className="nameUpdate">
             <div className="changeName">
-              <p>Username</p>
+              <p className="nameTags">Username</p>
               <input
+                className="input"
                 type="text"
                 placeholder="new username"
                 onChange={(e) => setNewName(e.target.value)}
