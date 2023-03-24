@@ -175,6 +175,9 @@
     width: 60%;
     height: 70%;
     margin: 15px 15px 15px 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
   .update .updateClose {
     right: 10px;
@@ -240,6 +243,12 @@
 
   .update .submit {
     margin-top: 5px;
+    margin-right: 19px;
+  }
+
+  .update .sendUpdate {
+    font-size: 10px;
+    width: 42px;
   }
 
   .update .perc {
@@ -268,6 +277,9 @@
   .update {
     width: 60%;
     height: 70%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
   .update .updateClose {
     right: 10px;
