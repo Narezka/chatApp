@@ -108,7 +108,7 @@
     height: 30px;
   }
 
-  .bottomRight .sendContainer{
+  .bottomRight .sendContainer {
     display: flex;
     gap: 5px;
   }
