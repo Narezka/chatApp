@@ -184,7 +184,7 @@
 @media only screen and (max-width: 500px) {
   .update {
     width: 60%;
-    height: 70%;
+    height: 66%;
     margin: 15px 15px 15px 15px;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -323,6 +323,7 @@
 
   .update .heading {
     font-size: 12px;
+    width: 200px;
   }
 
   .update .currentData {
@@ -365,6 +366,18 @@
 
   .update .submit {
     margin-top: 5px;
+  }
+
+  .update .sendUpdate {
+    font-size: 10px;
+    width: 62px;
+    height: 13px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
 
   .update .perc {
