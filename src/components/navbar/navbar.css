@@ -101,7 +101,7 @@
 
 @media only screen and (max-width: 500px) {
   .topMenuLeft .appName {
-    font-size: 10px;
+    font-size: 8px;
     width: 55px;
     margin: 0;
   }
@@ -111,8 +111,8 @@
   }
 
   .topMenuLeft .userImg {
-    width: 28px;
-    height: 28px;
+    width: 23px;
+    height: 23px;
   }
 
   .topMenuLeft .menuIcon {

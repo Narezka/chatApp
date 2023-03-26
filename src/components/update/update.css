@@ -183,8 +183,8 @@
 
 @media only screen and (max-width: 500px) {
   .update {
-    width: 80%;
-    height: 60%;
+    width: 75%;
+    height: 75%;
     margin-left: 40px;
   }
   .update .updateClose {
