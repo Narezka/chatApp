@@ -7,6 +7,13 @@
 
 /* @media only screen and (max-width: 501px) {
 
+  .left{
+    width: 180px;
+  }
+} */
+
+/* @media only screen and (max-width: 501px) {
+
 .left{
   width: 120px;
   height: 432px;

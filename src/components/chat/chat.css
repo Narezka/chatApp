@@ -29,6 +29,13 @@
   background-color: rgb(84, 136, 84);
   border-radius: 5px;
 }
+
+@media only screen and (max-width: 501px) {
+  .right {
+    width: 280px;
+  }
+}
+
 /* 
 @media only screen and (max-width: 501px) {
   .right {
