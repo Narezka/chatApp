@@ -365,10 +365,12 @@
   }
 
   .update .submit {
-    margin-top: 5px;
+    margin-top: -10px;
+    align-self: center;
   }
 
   .update .sendUpdate {
+    float: none;
     font-size: 10px;
     width: 62px;
     height: 13px;
