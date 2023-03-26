@@ -42,7 +42,7 @@
   color: #314230;
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
   .bottomLeft .contactImg {
     width: 25px;
     height: 25px;
@@ -80,4 +80,4 @@
     font-size: 8px;
     margin: 0;
   }
-}
+} */

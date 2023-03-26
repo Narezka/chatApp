@@ -179,44 +179,44 @@
 @media only screen and (min-width: 501px) and (max-width: 1100px) {
   .register {
     width: 55%;
-    height: 80%;
+    height: 65%;
   }
 
   .register h1 {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: -10px;
   }
 
   .register h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
   .register input {
     font-size: 15px;
-    line-height: 40px;
+    line-height: 30px;
     width: 270px;
   }
 
   .register .ava {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
   }
   .register button {
-    margin-top: 5px;
-    font-size: 15px;
-    height: 20px;
+    margin-top: 0px;
+    font-size: 12px;
+    height: 16px;
   }
   .register .errMsg {
-    font-size: 13px;
+    font-size: 10px;
     margin-top: 0;
   }
 
   .register .account {
-    font-size: 12px;
-    margin-top: 6px;
+    font-size: 10px;
+    margin-top: 0px;
   }
 
   .register .loginLink {
-    font-size: 12px;
+    font-size: 10px;
     margin-top: -10px;
   }
 }

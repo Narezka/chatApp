@@ -52,7 +52,7 @@
   margin-top: -5px;
   color: lightgray;
 }
-
+/* 
 @media only screen and (max-width: 500px) {
   .search .find {
     line-height: 8px;
@@ -107,4 +107,4 @@
   .search .lastMsg {
     font-size: 6px;
   }
-}
+} */

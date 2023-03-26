@@ -21,7 +21,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
+/* 
 @media only screen and (max-width: 500px) {
   .messages {
     height: 369px;
@@ -32,4 +32,4 @@
   .messages {
     height: 385px;
   }
-}
+} */

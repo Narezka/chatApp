@@ -76,7 +76,7 @@
 }
 
 /*owner css end  */
-
+/* 
 @media only screen and (max-width: 500px) {
   .message {
     display: flex;
@@ -127,4 +127,4 @@
   .message.owner {
     margin-right: 10px;
   }
-}
+} */

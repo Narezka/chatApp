@@ -56,7 +56,7 @@
   background-color: #0554c2;
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
   .bottomRight {
     height: 32px;
   }
@@ -125,4 +125,4 @@
     width: 30px;
     height: 15px;
   }
-}
+} */
