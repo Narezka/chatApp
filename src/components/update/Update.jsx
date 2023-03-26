@@ -149,7 +149,7 @@ const Update = ({ setOpenUpdate }) => {
 
             <div className="submit">
               <button
-                disabled={perc !== null && perc < 100}
+                disabled={perc === null && perc < 100}
                 onClick={updateAvatar}
                 className="sendUpdate"
               >
