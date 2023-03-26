@@ -184,8 +184,8 @@
 @media only screen and (max-width: 500px) {
   .update {
     width: 80%;
-    height: 50%;
-    margin-left: 90px;
+    height: 60%;
+    margin-left: 40px;
   }
   .update .updateClose {
     right: 10px;
@@ -250,7 +250,7 @@
   }
 
   .update .submit {
-    margin-top: 0;
+    margin-top: -5px;
     width: 170px;
   }
 
@@ -271,8 +271,8 @@
   }
 
   .update .newAva {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     object-fit: cover;
     border-radius: 3px;
   }

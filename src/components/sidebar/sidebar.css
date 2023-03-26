@@ -5,23 +5,8 @@
   border-bottom-left-radius: 10px;
 }
 
-/* @media only screen and (max-width: 501px) {
-
-  .left{
-    width: 180px;
+@media only screen and (max-width: 501px) {
+  .left {
+    width: 160px;
   }
-} */
-
-/* @media only screen and (max-width: 501px) {
-
-.left{
-  width: 120px;
-  height: 432px;
 }
-}
-@media only screen and (min-width: 501px) and (max-width: 1100px) {
-.left{
-  width: 200px;
-  height: 432px;
-}
-} */
