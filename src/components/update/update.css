@@ -184,7 +184,7 @@
 @media only screen and (max-width: 500px) {
   .update {
     width: 60%;
-    height: auto;
+    height: 60%;
     margin: 15px 15px 15px 15px;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -297,7 +297,7 @@
 @media only screen and (min-width: 500px) and (max-width: 1100px) {
   .update {
     width: 60%;
-    height: auto;
+    height: 65%;
   }
   .update .updateClose {
     right: 10px;
