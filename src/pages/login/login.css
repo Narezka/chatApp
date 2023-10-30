@@ -88,7 +88,7 @@
 }
 
 @media only screen and (orientation: portrait) /* and (max-width: 500px) */ {
-  .login {
+/*   .login {
     width: 60%;
     height: 35%;
   }
@@ -104,7 +104,7 @@
 
   .login button {
     margin-top: 0;
-  }
+  } */
 }
 
 /* @media only screen and (orientation: landscape) and (max-width: 900px) {
@@ -128,7 +128,7 @@
 } */
 
 @media only screen and (orientation: landscape) /* and (min-width: 501px) and (max-width: 1100px) */ {
-  .login {
+/*   .login {
     width: 60%;
     height: 75%;
   }
@@ -164,7 +164,7 @@
 
   .login .registerLink {
     font-size: 15px;
-  }
+  } */
 }
 
 /* @media only screen and (orientation: portrait) and (min-width: 501px) and (max-width: 1100px) {
