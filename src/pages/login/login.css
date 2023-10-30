@@ -16,7 +16,7 @@
 
 .login h1 {
   text-align: center;
-  margin-top: -17px;
+  margin-top: 17px;
   color: #285430;
 }
 
@@ -90,6 +90,10 @@
 @media only screen  and (max-width: 1084px) {
   .login {
     height: 50%;
+  }
+  .login .heading{
+    font-size: 30px;
+    
   }
 }
 
