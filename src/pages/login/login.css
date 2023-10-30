@@ -87,7 +87,7 @@
   margin-top: -10px;
 }
 
-@media only screen nd (min-width: 1201px) {
+@media only screen nd (min-width: 1000px) {
   .login {
     height: 40%;
   }
