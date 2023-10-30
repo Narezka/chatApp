@@ -27,7 +27,7 @@
 
 .login h3 {
   text-align: center;
-  /* margin-top: -20px; */
+  margin-top: -15px;
   color: #5f8d4e;
 }
 
@@ -87,12 +87,12 @@
   margin-top: -10px;
 }
 
-@media only screen  and (max-width: 1084px) {
+@media only screen  and (max-width: 1100px) {
   .login {
     height: 50%;
   }
   .login .heading{
-    font-size: 30px;
+    font-size: 20px;
     
   }
 }
