@@ -87,7 +87,7 @@
   margin-top: -10px;
 }
 
-@media only screen nd (min-width: 501px) and (max-width: 1080px) {
+@media only screen nd (min-width: 1080px) and (max-width: 1200px) {
   .login {
     height: 50%;
   }
