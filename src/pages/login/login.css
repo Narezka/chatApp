@@ -6,7 +6,7 @@
   right: 0;
   margin: auto;
   width: 30%;
-  height: 45%;
+  height: 55%;
   background-color: #e5fdd1;
   /* padding: 35px; */
   z-index: 999;
@@ -87,13 +87,9 @@
   margin-top: -10px;
 }
 
-@media only screen nd (min-width: 1080px) and (max-width: 1200px) {
+@media only screen nd (min-width: 1201px) {
   .login {
-    height: 50%;
-  }
-  .login .heading{
-    font-size: 20px;
-    
+    height: 40%;
   }
 }
 
