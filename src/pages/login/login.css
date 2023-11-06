@@ -95,7 +95,7 @@
 }
 @media only screen and (orientation: portrait) and (min-width: 600px) {
   .login {
-    height: 25%;
+    height: 40%;
   }
 }
 
