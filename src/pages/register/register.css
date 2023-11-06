@@ -145,10 +145,10 @@
 @media only screen and (min-width: 1200px) {
 .register {
    width: 40%;
-  height: 65%;
+  height: 60%;
 }
   .register h3 {
-  margin-top: -15px;
+  margin-top: -10px;
   font-size: 25px;
 }
   
@@ -164,7 +164,7 @@
 .register input {
   font-size: 13px;
   width: 280px;
-  margin-top: -5px;
+  margin-top: 0px;
 }
 }
 
