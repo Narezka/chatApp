@@ -127,6 +127,7 @@
 @media only screen and (min-width: 992px) {
 .login {
    width: 40%;
+  height: 55%;
 }
   .login h3 {
 /*   margin-top: 30px; */
@@ -151,7 +152,7 @@
 
 @media only screen and (min-width: 1200px) {
   .login{
-    height: 60px;
+    height: 60%;
   }
  .login h3 {
 /*   margin-top: 30px; */
