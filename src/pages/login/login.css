@@ -5,7 +5,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  width: 40%;
+  width: 50%;
   height: 65%;
   background-color: #e5fdd1;
   /* padding: 35px; */
@@ -14,7 +14,7 @@
   font-family: "Noto Serif Ahom", serif;
 }
 
-.login h2 {
+.login h3 {
   text-align: center;
   margin-top: 20px;
   color: #285430;
@@ -25,7 +25,7 @@
   flex-direction: column;
 }
 
-.login h3 {
+.login h4 {
   text-align: center;
   margin-top: 15px;
   color: #5f8d4e;
@@ -48,7 +48,7 @@
   border-color: #a9af7e;
   color: #557153;
   font-size: 12px;
-  width: 200px;
+  width: 150px;
   /* margin-top: -10px; */
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
