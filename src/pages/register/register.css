@@ -16,7 +16,6 @@
 
 .register h3 {
   text-align: center;
-  margin-top: 5px;
   color: #285430;
 }
 
@@ -145,8 +144,8 @@
 
 @media only screen and (min-width: 1200px) {
 .register {
-   width: 50%;
-  height: 55%;
+   width: 40%;
+  height: 65%;
 }
   .register h3 {
 /*   margin-top: 30px; */
@@ -169,10 +168,10 @@
 }
 }
 
-/* @media only screen and (min-width: 1470px) {
-.login {
+@media only screen and (min-width: 1470px) {
+.register {
    width: 40%;
-  height: 45%;
+  height: 55%;
 }
   .login h3 {
   font-size: 25px;
@@ -192,7 +191,7 @@
   width: 280px;
   margin-top: 0px;
 }
-} */
+}
 
 /* @media only screen and (min-width: 1900px) {
   .login{
