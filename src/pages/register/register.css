@@ -143,3 +143,96 @@
   }
 }
 
+@media only screen and (min-width: 1200px) {
+.register {
+   width: 50%;
+  height: 55%;
+}
+  .register h3 {
+/*   margin-top: 30px; */
+  font-size: 25px;
+}
+  
+.register h4 {
+  margin-top: -15px;
+  font-size: 15px;
+}
+
+.register .registerForm {
+  margin-top: -10px;
+}
+
+.register input {
+  font-size: 13px;
+  width: 280px;
+  margin-top: 0px;
+}
+}
+
+/* @media only screen and (min-width: 1470px) {
+.login {
+   width: 40%;
+  height: 45%;
+}
+  .login h3 {
+  font-size: 25px;
+}
+  
+.login h4 {
+  margin-top: -15px;
+  font-size: 15px;
+}
+
+.login .loginForm {
+  margin-top: -10px;
+}
+
+.login input {
+  font-size: 13px;
+  width: 280px;
+  margin-top: 0px;
+}
+} */
+
+/* @media only screen and (min-width: 1900px) {
+  .login{
+    height: 50%;
+  }
+ .login h3 {
+  font-size: 40px;
+}
+  
+.login h4 {
+  font-size: 25px;
+}
+
+.login .loginForm {
+  margin-top: 5px;
+}
+
+.login input {
+  font-size: 20px;
+  width: 300px;
+  margin-top: 10px;
+}
+  .login button {
+  font-size: 20px;
+  width: 190px;
+  height:30px;
+  margin-top: 10px;
+}
+
+.login .errMsg {
+  font-size: 15px;
+}
+
+.login p {
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+.login .registerLink {
+  margin-top: -5px;
+}
+}
+ */
