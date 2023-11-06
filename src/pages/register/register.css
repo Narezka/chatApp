@@ -139,7 +139,7 @@
 }
 @media only screen and (orientation: portrait) and (min-width: 600px) {
   .register {
-    height: 35%;
+    height: 40%;
   }
 }
 
