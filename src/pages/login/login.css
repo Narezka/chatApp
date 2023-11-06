@@ -99,19 +99,17 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .login {
    width: 50%;
   height: 65%;
 }
   
  .login h3 {
-/*   margin-top: 30px; */
   font-size: 30px;
 }
   
 .login h4 {
-/*   margin-top: -5px; */
   font-size: 15px;
 }
 
@@ -125,11 +123,10 @@
   margin-top: 10px;
 }
 }
-
+ */
 @media only screen and (min-width: 992px) {
 .login {
-   width: 50%;
-  height: 45%;
+   width: 40%;
 }
   .login h3 {
 /*   margin-top: 30px; */
@@ -137,22 +134,25 @@
 }
   
 .login h4 {
-/*   margin-top: -5px; */
+  margin-top: -15px;
   font-size: 15px;
 }
 
 .login .loginForm {
-  margin-top: 5px;
+  margin-top: -10px;
 }
 
 .login input {
-  font-size: 15px;
+  font-size: 13px;
   width: 280px;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 }
 
 @media only screen and (min-width: 1200px) {
+  .login{
+    height: 60px;
+  }
  .login h3 {
 /*   margin-top: 30px; */
   font-size: 40px;
