@@ -148,23 +148,23 @@
   height: 65%;
 }
   .register h3 {
-/*   margin-top: 30px; */
+  margin-top: -15px;
   font-size: 25px;
 }
   
 .register h4 {
-  margin-top: -15px;
+  margin-top: -25px;
   font-size: 15px;
 }
 
 .register .registerForm {
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 .register input {
   font-size: 13px;
   width: 280px;
-  margin-top: 0px;
+  margin-top: -5px;
 }
 }
 
