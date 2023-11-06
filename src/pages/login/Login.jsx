@@ -24,9 +24,9 @@ function Login() {
 
   return (
     <div className="login">
-      <h2 className="heading">WhatsApp demo</h2>
+      <h3 className="heading">WhatsApp demo</h3>
       <div className="container">
-        <h3>Login page</h3>
+        <h4>Login page</h4>
         <form onSubmit={handleSubmit} className="loginForm">
           <input type="email" placeholder="email"></input>
           <input type="password" placeholder="password"></input>
