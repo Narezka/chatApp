@@ -86,9 +86,9 @@ function Register() {
   };
   return (
     <div className="register">
-      <h1>WhatsApp demo</h1>
+      <h3>WhatsApp demo</h3>
       <div className="container">
-        <h3>Register page</h3>
+        <h4>Register page</h4>
         <form className="registerForm" onSubmit={handleSubmit}>
           <input
             type="text"
