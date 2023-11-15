@@ -107,56 +107,6 @@
   }
 }
 
-/* @media only screen and (min-width: 768px) {
-  .login {
-   width: 50%;
-  height: 65%;
-}
-  
- .login h3 {
-  font-size: 30px;
-}
-  
-.login h4 {
-  font-size: 15px;
-}
-
-.login .loginForm {
-  margin-top: 5px;
-}
-
-.login input {
-  font-size: 15px;
-  width: 280px;
-  margin-top: 10px;
-}
-}
- */
-/* @media only screen and (min-width: 992px) {
-.login {
-   width: 40%;
-  height: 60%;
-}
-  .login h3 {
-  font-size: 25px;
-}
-  
-.login h4 {
-  margin-top: -15px;
-  font-size: 15px;
-}
-
-.login .loginForm {
-  margin-top: -10px;
-}
-
-.login input {
-  font-size: 13px;
-  width: 280px;
-  margin-top: 0px;
-}
-} */
-
 @media only screen and (min-width: 1200px) {
 .login {
    width: 40%;
@@ -177,10 +127,13 @@
 }
 
 .login input {
-  font-size: 13px;
-  width: 280px;
-  margin-top: 0px;
+  font-size: 15px;
+  width: 350px;
+  margin-top: 10px;
 }
+  .login button{
+    margin-top: 10px;
+  }
 }
 
 @media only screen and (min-width: 1470px) {
