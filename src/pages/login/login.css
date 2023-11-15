@@ -103,7 +103,7 @@
 }
 @media only screen and (orientation: portrait) and (min-width: 600px) {
   .login {
-    height: 35%;
+    height: 30%;
   }
   .login input{
     font-size: 15px;
