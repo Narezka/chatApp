@@ -130,7 +130,7 @@
   margin-top: -10px;
 }
 
-@media only screen and (orientation: landscape) and (max-width: 600px) {
+@media only screen and (orientation: landscape) and (min-width: 600px) {
   .register {
     height: 80%;
   }
@@ -141,9 +141,9 @@
     margin-top: -15px;
   }
   .register input {
-    font-size: 14px;
-    width: 200px;
-    line-height: 15px;
+    font-size: 15px;
+    width: 450px;
+    line-height: 14px;
   }
   .register button {
   font-size: 13px;
@@ -163,10 +163,27 @@
     height: 45%;
   }
   .register h3 {
-    margin-top: -15px;
+    margin-top: -5px;
 }
   .register h4 {
-    margin-top: -15px;
+    margin-top: -5px;
+}
+    .register input {
+    font-size: 15px;
+    width: 450px;
+    line-height: 14px;
+  }
+  .register button {
+  font-size: 13px;
+  width: 100px;
+  height: 20px;
+  margin-top: 4px;
+}
+.register .errMsg {
+  font-size: 12px;
+}
+.register .account {
+  margin-top: 4px;
 }
 }
 
@@ -198,14 +215,14 @@
     font-size: 15px;
   }
   .register button{
-    font-size: 17px;
-    height: 26px;
-    margin-top: 10px;
+    font-size: 14px;
+    height: 21px;
+    margin-top: -2px;
     width: 150px;
   }
 
   .register .errMsg{
-    font-size: 16px;
+    font-size: 13px;
   }
 }
 
