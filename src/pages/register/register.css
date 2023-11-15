@@ -17,6 +17,7 @@
 .register h3 {
   text-align: center;
   color: #285430;
+  margin-top: -15px;
 }
 
 .register .container {
@@ -26,7 +27,7 @@
 
 .register h4 {
   text-align: center;
-  margin-top: -5px;
+  margin-top: -15px;
   color: #5f8d4e;
 }
 
@@ -35,12 +36,12 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  margin-top: -10px;
+  margin-top: -15px;
 }
 
 .register input {
   background-color: #e5fdd1;
-  line-height: 31px;
+  line-height: 25px;
   outline: 0;
   border-width: 0 0 2px;
   border-color: #a9af7e;
@@ -59,7 +60,7 @@
 .register .upload {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 
 .register .addAvatar {
@@ -89,14 +90,14 @@
 .register button {
   align-self: center;
   font-family: "Noto Serif Ahom", serif;
-  font-size: 16px;
+  font-size: 14px;
   background-color: #e5d9b6;
   border: none;
   border-radius: 5px;
   width: 130px;
   height: 25px;
   color: #557153;
-  margin-top: 8px;
+  margin-top: 0px;
   cursor: pointer;
 }
 
@@ -113,12 +114,12 @@
 
 .register .errMsg {
   color: red;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .register .account {
   text-align: center;
-  margin-top: 8px;
+  margin-top: 0px;
   color: #557153;
   font-size: 12px;
 }
@@ -127,7 +128,7 @@
   text-align: center;
   color: #557153;
   font-size: 12px;
-  margin-top: -10px;
+  margin-top: -15px;
 }
 
 @media only screen and (orientation: landscape) and (min-width: 600px) {
