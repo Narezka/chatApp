@@ -88,10 +88,18 @@
 }
 
 @media only screen and (orientation: landscape) and (min-width: 600px) {
+  .login{
+    height: 60%;
+  }
+  .login h4 { 
+    margin-top:-10px;
+  }
   .login input {
   font-size: 14px;
-  width: 180px;
+  width: 200px;
+    line-height:15px;
   }
+  
 }
 @media only screen and (orientation: portrait) and (min-width: 600px) {
   .login {
