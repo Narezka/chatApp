@@ -193,45 +193,45 @@
 }
 }
 
-/* @media only screen and (min-width: 1900px) {
-  .login{
+@media only screen and (min-width: 1900px) {
+  .register{
     height: 50%;
   }
- .login h3 {
+ .register h3 {
   font-size: 40px;
 }
   
-.login h4 {
+.register h4 {
   font-size: 25px;
 }
 
-.login .loginForm {
+.register .registerForm {
   margin-top: 5px;
 }
 
-.login input {
+.register input {
   font-size: 20px;
   width: 300px;
   margin-top: 10px;
 }
-  .login button {
+  .register button {
   font-size: 20px;
   width: 190px;
   height:30px;
   margin-top: 10px;
 }
 
-.login .errMsg {
+.register .errMsg {
   font-size: 15px;
 }
 
-.login p {
+.register p {
   margin-top: 8px;
   font-size: 15px;
 }
 
-.login .registerLink {
+.register .loginLink {
   margin-top: -5px;
 }
 }
- */
+
