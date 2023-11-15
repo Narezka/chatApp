@@ -101,7 +101,7 @@
   }
   
 }
-@media only screen and (orientation: portrait) and (min-width: 600px) {
+@media only screen and (orientation: portrait) and (max-width: 600px) {
   .login {
     height: 35%;
   }
