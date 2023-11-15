@@ -132,7 +132,7 @@
 
 @media only screen and (orientation: landscape) and (min-width: 600px) {
   .register {
-    height: 80%;
+    height: 60%;
   }
   .register h3 {
     margin-top: -15px;
@@ -160,7 +160,7 @@
 }
 @media only screen and (orientation: portrait) and (min-width: 600px) {
   .register {
-    height: 45%;
+    height: 35%;
   }
   .register h3 {
     margin-top: -5px;
@@ -170,7 +170,7 @@
 }
     .register input {
     font-size: 15px;
-    width: 450px;
+    width: 350px;
     line-height: 14px;
   }
   .register button {
